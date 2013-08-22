@@ -1,0 +1,16 @@
+author: H31IX
+database: false
+description: Allows admins to communicate easily with eachother.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: net.h31ix.adminchat.AdminChat
+name: Admin Chat
+startup: postworld
+url: http://H31IX.NET/
+version: '1.1'
+commands:
+  ac: 
+    description: Talk to other admins
+    usage: /ac <message>
+  bc: 
+    description: Broadcast a message to all users.
+    usage: /bc <message>
